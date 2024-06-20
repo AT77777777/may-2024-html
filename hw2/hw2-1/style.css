@@ -1,0 +1,42 @@
+body {
+    font-size: 18px;
+}
+
+h1, hr {
+    margin: 5px 0;
+}
+
+p {
+    margin: 8px 0 16px;
+}
+
+.from-wiki{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.note {
+    padding-left: 26px;
+}
+
+.link {
+    color: #36c;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.headline {
+    font-size: 24px;
+    padding: 20px 0 3px;
+    margin: 0;
+}
+
+.edit-section {
+    font-size: 15px;
+    margin-left: 13px;
+}
+

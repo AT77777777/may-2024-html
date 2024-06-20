@@ -1,0 +1,19 @@
+p {
+    font-size: 36px;
+
+}
+
+span {
+    background-color: #dfdfdf;
+    font-size: 72px;
+    padding: 7px 20px;
+    margin: 3px;
+}
+
+.black {
+    color: black;
+}
+
+.red {
+    color: firebrick;
+}
