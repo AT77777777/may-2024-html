@@ -1,0 +1,32 @@
+body{
+    background-color: #A6B1E1;
+    margin: 0;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 35px 0;
+}
+
+.card{
+    width: 220px;
+    height: 190px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    background-color: #DCD6F7;
+    border: 3px solid #F4EEFF;
+    box-shadow: 10px 10px 48px -6px rgba(0,0,0,0.29);
+    font-size: 13px;
+    padding: 0 15px;
+    transition: 100ms;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 100ms;
+    outline: 3px solid #F4EEFF;
+    box-shadow: 10px 10px 48px -6px rgba(244,238,255,0.29);
+}

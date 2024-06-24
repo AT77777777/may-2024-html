@@ -1,0 +1,27 @@
+body{
+    background-color: #ffe2c4;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 100px 0;
+}
+
+.box{
+    background-color: #fe0000;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+
+}
+
+.box:hover {
+    background-color: #808080;
+    border-radius: 50%;
+    transition: 1s;
+}
