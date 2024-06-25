@@ -1,0 +1,28 @@
+.top, .bottom, .center div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+.top{
+    height: 40vw;
+    background-color: #216abb;
+}
+.center{
+    height: 40vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+.center div{
+    width: 31vw;
+    height: 100%;
+    background-color: #16457a;
+}
+.bottom{
+    height: 60vw;
+    background-color: #216abb;
+}
